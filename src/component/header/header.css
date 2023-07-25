@@ -1,0 +1,46 @@
+.header{
+   
+    height: auto;
+}
+
+.headerSearch{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      margin-top: 20px;
+     position: relative;
+}
+
+.input{
+    padding: 10px 300px 10px 60px;
+    border: none;
+    background-color: whitesmoke;
+    color: gray;
+    border-radius: 5px;
+    
+}
+
+.fa-solid{
+    color: black;
+    position: absolute;
+    right: 57rem;
+}
+
+.headerImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 30px;
+    border-bottom: solid gray 1px;
+}
+
+.input:focus{
+    outline: none;
+}
+  
+
+ 

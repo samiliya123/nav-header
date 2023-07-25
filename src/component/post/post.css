@@ -1,0 +1,14 @@
+ .post{
+    color: whitesmoke;
+    width: 380px;
+    margin: 0px 40px 40px 25px;
+ }
+
+ 
+
+ .postImg{
+   width: 400px;
+   height: 320px;
+   object-fit: cover;
+   border-radius: 6px;
+ }

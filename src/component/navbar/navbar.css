@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 70px;
+    background-color: #242424;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+.navbarCard{
+    display: flex;
+    overflow: hidden;
+    margin: auto;
+    
+   
+}
+
+.navbarList{
+    display: flex;
+    list-style: none;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    gap: 9.6rem;
+    cursor: pointer;
+}
+
+.navbarListed{ 
+    font-size: 20px;
+    display: inline-block;
+     width: 60%;
+     position: relative;
+}
+
+.navBtn{
+    cursor: pointer;
+    margin: auto 40px;
+    padding: 10px 30px 10px 30px;
+    border: none;
+    border-radius: 5px;
+}
+ 
+
+.navbarListed::after{
+    content: "";
+    width: 0%;
+    height: 3px;
+    background-color: whitesmoke;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+}
+
+.navbarListed:hover::after{
+    width: 100%;
+    transition: all 0.6s ease;
+}
+
+ 
